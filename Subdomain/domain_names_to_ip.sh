@@ -1,6 +1,4 @@
 #!/bin/bash
-# Program name: pingscript.sh
-#date
 
 printf "\n\n************** Enter domain list file as first arg and output file name as second arg! **************\n\n"
 
