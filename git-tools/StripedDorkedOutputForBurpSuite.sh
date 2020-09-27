@@ -10,7 +10,6 @@ if test -z $1
 
 ./Gdorklinks.sh $query >> tmpfile.txt
 
-
 # get the string required by burp
 
 sed -e 's/https:\/\/github.com\/search?q=//g' tmpfile.txt >> stripedfile.txt
