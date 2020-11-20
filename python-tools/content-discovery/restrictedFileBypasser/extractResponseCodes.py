@@ -2,13 +2,6 @@
 
 import re
 
-# Function returns four arrays of dictionaries containing the codes for 200, 300, 400 and 500 responses
-
-# TODO end of program code report generator
-
-# Get all codes and add to an array if
-# Loop over and add a counter for each
-
 def extractCodes(fileName):
 	print("Running status code extraction")
 	
@@ -38,7 +31,6 @@ def extractCodes(fileName):
 		if fives:
 			fiveResponses.append(string)
 		
-	
 	results = [
 		twoResponses,
 		threeResponses,
