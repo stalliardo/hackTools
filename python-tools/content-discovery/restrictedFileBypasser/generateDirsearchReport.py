@@ -121,14 +121,3 @@ launch()
 
 for i in endOfProgramReport:
 	print("Report for " + colored(str(i[0]), "yellow", attrs=["bold"]) + " 200s: " + colored(str(i[1]), "green", attrs=["bold"]) + " 300s: " + colored(str(i[2]), "green", attrs=["bold"]) + " 400s: " + colored(str(i[3]), "green", attrs=["bold"]) + " 500s: " + colored(str(i[4]), "green", attrs=["bold"]))
-
-	
-	
-	
-	
-	
-	
-	
-
-
-
